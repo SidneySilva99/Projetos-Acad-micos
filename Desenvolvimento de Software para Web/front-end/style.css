@@ -1,0 +1,101 @@
+body {
+    background-color: #0f172a;
+}
+
+p {
+    color: #e2e8f0;
+    background-color: rgba(30, 41, 59, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #38bdf8;
+}
+
+h2 {
+    color: #8b5cf6;
+}
+
+h3.Livro {
+    color: #38bdf8;
+}
+
+.Titulo {
+    color: #8b5cf6;
+}
+
+ul {
+    color: #e2e8f0;
+}
+
+ul li {
+    color: #38bdf8;
+}
+
+ul > li {
+    color: #07bdf5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    color: #e2e8f0;
+}
+
+th {
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 10px;
+}
+
+td {
+    background-color: #020617;
+    color: #e2e8f0;
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    color: #f1f5f9;
+}
+
+input {
+    background-color: #020617;
+    color: #e2e8f0;
+    border: 2px solid #38bdf8;
+    padding: 8px;
+    width: 300px;
+}
+
+[type] {
+    border: 3px solid #38bdf8;
+}
+
+input[type="submit"] {
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+div p {
+    color: #22c55e;
+}
+
+a {
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #38bdf8;
+}
